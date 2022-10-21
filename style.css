@@ -1,0 +1,66 @@
+.banner {
+  width: 100%;
+  background-image: url(https://source.unsplash.com/random);
+  color: white;
+  background-size: cover;
+}
+
+.banner-container {
+  width: 600px;
+  margin: 0 auto;
+  align-content: center;
+  padding: 70px;
+  letter-spacing: 3px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner h2 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+
+}
+
+.container .link a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.container .link a:hover {
+  text-decoration: none;
+  color: rgb(255, 179, 0);
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 908px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 284px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 476px;
+  }
+}
